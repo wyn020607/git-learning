@@ -26,8 +26,10 @@ long long fib_tail(int n, long long a = 0, long long b = 1) {
 int main() {
     std::cout << "factorial_recursive(5) = " << factorial_recursive(5) << std::endl;
     std::cout << "factorial_tail(5)     = " << factorial_tail(5) << std::endl;
-
-   
     std::cout << "factorial_tail(20)    = " << factorial_tail(20) << std::endl;
+
+    std::cout << "fib_recursive(10) = " << fib_recursive(10) << std::endl;
+    std::cout << "fib_tail(10)      = " << fib_tail(10) << std::endl;
+    std::cout << "fib_tail(50)      = " << fib_tail(50) << std::endl;
     return 0;
 }
