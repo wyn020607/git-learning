@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//normal 递归
+//normal recursion（非尾递归）
 long long factorial_recursive(int n) {
     if (n <= 1) return 1;
     return n * factorial_recursive(n - 1);
@@ -24,7 +24,7 @@ long long fib_tail(int n, long long a = 0, long long b = 1) {
 }
 
 int main() {
-    std::cout << "factorial_recursive(5) = " << factorial_recursive(5) << std::endl;
+    std::cout << "Result(5) recursive = " << factorial_recursive(5) << std::endl;
     std::cout << "factorial_tail(5)     = " << factorial_tail(5) << std::endl;
     std::cout << "factorial_tail(20)    = " << factorial_tail(20) << std::endl;
 
