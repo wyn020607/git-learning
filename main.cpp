@@ -24,6 +24,7 @@ long long fib_tail(int n, long long a = 0, long long b = 1) {
 }
 
 int main() {
+    std::cout << "Hello from GitHub!" << std::endl;
     std::cout << "Result(5) recursive = " << factorial_recursive(5) << std::endl;
     std::cout << "factorial_tail(5)     = " << factorial_tail(5) << std::endl;
     std::cout << "factorial_tail(20)    = " << factorial_tail(20) << std::endl;
